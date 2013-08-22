@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - First-->
+        <!--Car Controller - First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="BSFirstViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="BSCarController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MEv-a4-ajh"/>
                         <viewControllerLayoutGuide type="bottom" id="hJ6-X8-HeO"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>510F73FD-92D5-43EF-B78F-783EC6B93EE9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CarCloserLite</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>830CF966-1C10-4828-944A-82199AB3879F</key>
+		<string>https://github.com/masterchief117/CarCloserLite.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CarCloserLite.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>830CF966-1C10-4828-944A-82199AB3879F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/masterchief117/CarCloserLite.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>830CF966-1C10-4828-944A-82199AB3879F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>830CF966-1C10-4828-944A-82199AB3879F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CarCloserLite</string>
+		</dict>
+	</array>
+</dict>
+</plist>

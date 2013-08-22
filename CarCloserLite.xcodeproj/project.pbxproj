@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00129C717C6AF8F0077ACAB /* BSView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00129C617C6AF8F0077ACAB /* BSView.m */; };
+		B081BCEC17C68FD900BCCDC3 /* CarInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081BCEB17C68FD900BCCDC3 /* CarInput.xib */; };
+		B0B8420517C6A139007B0EED /* CarReport.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B8420417C6A139007B0EED /* CarReport.xib */; };
+		B0B8420E17C6A9B1007B0EED /* BSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */; };
+		B0B8421117C6AC98007B0EED /* BSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8421017C6AC98007B0EED /* BSTextField.m */; };
 		B0D0FD9C17C66DE200D0B697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FD9B17C66DE200D0B697 /* Foundation.framework */; };
 		B0D0FD9E17C66DE200D0B697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FD9D17C66DE200D0B697 /* CoreGraphics.framework */; };
 		B0D0FDA017C66DE200D0B697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FD9F17C66DE200D0B697 /* UIKit.framework */; };
@@ -15,7 +20,7 @@
 		B0D0FDAC17C66DE200D0B697 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FDAB17C66DE200D0B697 /* BSAppDelegate.m */; };
 		B0D0FDAF17C66DE200D0B697 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D0FDAD17C66DE200D0B697 /* Main_iPhone.storyboard */; };
 		B0D0FDB217C66DE200D0B697 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D0FDB017C66DE200D0B697 /* Main_iPad.storyboard */; };
-		B0D0FDB517C66DE200D0B697 /* BSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FDB417C66DE200D0B697 /* BSFirstViewController.m */; };
+		B0D0FDB517C66DE200D0B697 /* BSCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FDB417C66DE200D0B697 /* BSCarController.m */; };
 		B0D0FDB817C66DE200D0B697 /* BSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FDB717C66DE200D0B697 /* BSSecondViewController.m */; };
 		B0D0FDBA17C66DE200D0B697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D0FDB917C66DE200D0B697 /* Images.xcassets */; };
 		B0D0FDC117C66DE200D0B697 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FDC017C66DE200D0B697 /* XCTest.framework */; };
@@ -36,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00129C517C6AF8F0077ACAB /* BSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSView.h; sourceTree = "<group>"; };
+		B00129C617C6AF8F0077ACAB /* BSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSView.m; sourceTree = "<group>"; };
+		B081BCEB17C68FD900BCCDC3 /* CarInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarInput.xib; sourceTree = "<group>"; };
+		B0B8420417C6A139007B0EED /* CarReport.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarReport.xib; sourceTree = "<group>"; };
+		B0B8420C17C6A9B1007B0EED /* BSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBaseViewController.h; sourceTree = "<group>"; };
+		B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBaseViewController.m; sourceTree = "<group>"; };
+		B0B8420F17C6AC98007B0EED /* BSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextField.h; sourceTree = "<group>"; };
+		B0B8421017C6AC98007B0EED /* BSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextField.m; sourceTree = "<group>"; };
 		B0D0FD9817C66DE200D0B697 /* CarCloserLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCloserLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0FD9B17C66DE200D0B697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0D0FD9D17C66DE200D0B697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,8 +61,8 @@
 		B0D0FDAB17C66DE200D0B697 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
 		B0D0FDAE17C66DE200D0B697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B0D0FDB117C66DE200D0B697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B0D0FDB317C66DE200D0B697 /* BSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSFirstViewController.h; sourceTree = "<group>"; };
-		B0D0FDB417C66DE200D0B697 /* BSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSFirstViewController.m; sourceTree = "<group>"; };
+		B0D0FDB317C66DE200D0B697 /* BSCarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCarController.h; sourceTree = "<group>"; };
+		B0D0FDB417C66DE200D0B697 /* BSCarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCarController.m; sourceTree = "<group>"; };
 		B0D0FDB617C66DE200D0B697 /* BSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSecondViewController.h; sourceTree = "<group>"; };
 		B0D0FDB717C66DE200D0B697 /* BSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSecondViewController.m; sourceTree = "<group>"; };
 		B0D0FDB917C66DE200D0B697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -84,6 +97,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B081BCEA17C68FBE00BCCDC3 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				B081BCEB17C68FD900BCCDC3 /* CarInput.xib */,
+				B0B8420417C6A139007B0EED /* CarReport.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		B0B8420617C6A88C007B0EED /* uiobjects */ = {
+			isa = PBXGroup;
+			children = (
+				B0B8420F17C6AC98007B0EED /* BSTextField.h */,
+				B0B8421017C6AC98007B0EED /* BSTextField.m */,
+				B00129C517C6AF8F0077ACAB /* BSView.h */,
+				B00129C617C6AF8F0077ACAB /* BSView.m */,
+			);
+			name = uiobjects;
+			sourceTree = "<group>";
+		};
+		B0B8420A17C6A98F007B0EED /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0B8420C17C6A9B1007B0EED /* BSBaseViewController.h */,
+				B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		B0D0FD8F17C66DE200D0B697 = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +159,15 @@
 		B0D0FDA117C66DE200D0B697 /* CarCloserLite */ = {
 			isa = PBXGroup;
 			children = (
+				B0B8420A17C6A98F007B0EED /* controllers */,
+				B0B8420617C6A88C007B0EED /* uiobjects */,
+				B081BCEA17C68FBE00BCCDC3 /* xib */,
 				B0D0FDAA17C66DE200D0B697 /* BSAppDelegate.h */,
 				B0D0FDAB17C66DE200D0B697 /* BSAppDelegate.m */,
 				B0D0FDAD17C66DE200D0B697 /* Main_iPhone.storyboard */,
 				B0D0FDB017C66DE200D0B697 /* Main_iPad.storyboard */,
-				B0D0FDB317C66DE200D0B697 /* BSFirstViewController.h */,
-				B0D0FDB417C66DE200D0B697 /* BSFirstViewController.m */,
+				B0D0FDB317C66DE200D0B697 /* BSCarController.h */,
+				B0D0FDB417C66DE200D0B697 /* BSCarController.m */,
 				B0D0FDB617C66DE200D0B697 /* BSSecondViewController.h */,
 				B0D0FDB717C66DE200D0B697 /* BSSecondViewController.m */,
 				B0D0FDB917C66DE200D0B697 /* Images.xcassets */,
@@ -238,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D0FDB217C66DE200D0B697 /* Main_iPad.storyboard in Resources */,
+				B081BCEC17C68FD900BCCDC3 /* CarInput.xib in Resources */,
+				B0B8420517C6A139007B0EED /* CarReport.xib in Resources */,
 				B0D0FDBA17C66DE200D0B697 /* Images.xcassets in Resources */,
 				B0D0FDAF17C66DE200D0B697 /* Main_iPhone.storyboard in Resources */,
 				B0D0FDA617C66DE200D0B697 /* InfoPlist.strings in Resources */,
@@ -259,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D0FDB517C66DE200D0B697 /* BSFirstViewController.m in Sources */,
+				B0D0FDB517C66DE200D0B697 /* BSCarController.m in Sources */,
+				B0B8420E17C6A9B1007B0EED /* BSBaseViewController.m in Sources */,
+				B00129C717C6AF8F0077ACAB /* BSView.m in Sources */,
+				B0B8421117C6AC98007B0EED /* BSTextField.m in Sources */,
 				B0D0FDA817C66DE200D0B697 /* main.m in Sources */,
 				B0D0FDAC17C66DE200D0B697 /* BSAppDelegate.m in Sources */,
 				B0D0FDB817C66DE200D0B697 /* BSSecondViewController.m in Sources */,
@@ -475,6 +525,7 @@
 				B0D0FDD217C66DE200D0B697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D0FDD317C66DE200D0B697 /* Build configuration list for PBXNativeTarget "CarCloserLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +534,7 @@
 				B0D0FDD517C66DE200D0B697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

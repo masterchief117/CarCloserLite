@@ -1,5 +1,5 @@
 //
-//  BSFirstViewController.h
+//  BSBaseViewController.h
 //  CarCloserLite
 //
 //  Created by Brent Stewart on 8/22/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BSFirstViewController : UIViewController
+@interface BSBaseViewController : UIViewController <UITextFieldDelegate>
 
 @end
