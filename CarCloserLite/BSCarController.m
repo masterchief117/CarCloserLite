@@ -7,21 +7,22 @@
 //
 
 #import "BSCarController.h"
+#import "BSView.h"
 
 @interface BSCarController ()
 
 @end
 
 @implementation BSCarController
+BSView* carView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self removeAllSubviews];
-    UIView* view =[[[NSBundle mainBundle] loadNibNamed:@"CarInput" owner:nil options:nil] objectAtIndex:0];
-    view.frame = self.view.frame;
-    [self.view addSubview:view];
-    
+    carView=[[[NSBundle mainBundle] loadNibNamed:@"CarInput" owner:nil options:nil] objectAtIndex:0];
+    carView.frame = self.view.frame;
+    [self.view addSubview:carView];
 }
 
 - (void)didReceiveMemoryWarning

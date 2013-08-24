@@ -7,11 +7,14 @@
 //
 
 #import "BSView.h"
-#import "BSTextField.h"
+#import "BSNumberTextField.h"
+#import "BSParseViewForObjects.h"
 
 @implementation BSView
-@synthesize scrollView;
+
 UITextField* activeField;
+
+
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -25,14 +28,27 @@ UITextField* activeField;
     self = [super initWithCoder:aDecoder];
     if(self){
         [self registerForKeyboardNotifications];
+        
     }
     return self;
 }
 
 - (IBAction)tapOut:(UITapGestureRecognizer *)sender {
+    
+    UILabel* coordinates;
+    CGPoint locationOfTap = [sender locationInView:_scrollView];
+    CGPoint locate = [sender locationInView:self];
+    CGRect locale = CGRectMake(locate.x, locate.y, 200, 20);
+    
+    coordinates = [[UILabel alloc] initWithFrame:locale];
+    coordinates.text = [NSString stringWithFormat:@"x=%d, y=%d", (int)locationOfTap.x, (int)locationOfTap.y];
+    [self addSubview:coordinates];
     [self endEditing:YES];
-}
 
+}
+-(void)setFrame:(CGRect)frame{
+    [super setFrame:frame];
+}
 
 // Call this method somewhere in your view controller setup code.
 - (void)registerForKeyboardNotifications
@@ -40,39 +56,36 @@ UITextField* activeField;
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWasShown:)
                                                  name:UIKeyboardDidShowNotification object:nil];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillBeHidden:)
-                                                 name:UIKeyboardWillHideNotification object:nil];
+                                                 name:UIKeyboardDidShowNotification object:nil];
+
     
 }
+
 // Called when the UIKeyboardDidShowNotification is sent.
 - (void)keyboardWasShown:(NSNotification*)aNotification
 {
+    [self findFirstResponder];
     NSDictionary* info = [aNotification userInfo];
     CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
-    if(UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation)){
-        float h = kbSize.width;
-        float w = kbSize.height;
+    if(UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation) ){
+        int h = kbSize.width;
+        int w = kbSize.height;
         kbSize = CGSizeMake(w, h);
     }
-    float moveHeight = kbSize.height - ([self superview].frame.origin.y - scrollView.frame.origin.y);
-    NSLog(@"%f", moveHeight);
-    UIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0,moveHeight, 0.0);
-    scrollView.contentInset = contentInsets;
-    scrollView.scrollIndicatorInsets = contentInsets;
+    UIEdgeInsets contentInsets = UIEdgeInsetsMake(0.0, 0.0, kbSize.height, 0.0);
+    _scrollView.contentInset = contentInsets;
+    _scrollView.scrollIndicatorInsets = contentInsets;
     
     // If active text field is hidden by keyboard, scroll it so it's visible
     // Your application might not need or want this behavior.
-    CGRect aRect = [self superview].frame;
-
+    CGRect aRect = self.superview.frame;
     aRect.size.height -= kbSize.height;
-    [self findFirstResponder];
-    if (!CGRectContainsPoint(aRect, activeField.frame.origin) ) {
-        NSLog(@"origin = %f", activeField.frame.origin.y);
-        CGPoint scrollPoint = CGPointMake(0.0, (abs(activeField.frame.origin.y + aRect.origin.y) - kbSize.height));
-        NSLog(@"x = %f\ny = %f", scrollPoint.x, scrollPoint.y);
-        [scrollView setContentOffset:scrollPoint animated:YES];
+    CGPoint me = [self.superview convertPoint:activeField.frame.origin toView:self.superview];
+    if (!CGRectContainsPoint(aRect, me) ) {
+        CGPoint scrollPoint = CGPointMake(0.0, activeField.frame.origin.y-kbSize.height);
+        [_scrollView setContentOffset:scrollPoint animated:YES];
     }
 }
 
@@ -80,9 +93,10 @@ UITextField* activeField;
 - (void)keyboardWillBeHidden:(NSNotification*)aNotification
 {
     UIEdgeInsets contentInsets = UIEdgeInsetsZero;
-    scrollView.contentInset = contentInsets;
-    scrollView.scrollIndicatorInsets = contentInsets;
+    _scrollView.contentInset = contentInsets;
+    _scrollView.scrollIndicatorInsets = contentInsets;
 }
+
 
 - (UIView*) enumerateAllSubviewsOf: (UIView*) aView UsingBlock: (BOOL (^)( UIView* aView )) aBlock {
     
@@ -107,12 +121,22 @@ UITextField* activeField;
 
 - (UIView*) findFirstResponder {
     return [ self enumerateAllSubviewsUsingBlock:^BOOL(UIView *aView) {
-        if( [ aView isFirstResponder ] && [aView isKindOfClass:[BSTextField class]]) {
-            activeField = (BSTextField*)aView;
+        if( [ aView isFirstResponder ] && [aView isKindOfClass:[BSNumberTextField class]]) {
+            activeField = (BSNumberTextField*)aView;
             return YES;
         }
         
         return NO;
     }];
+}
+- (IBAction)clearInputs:(UIButton *)sender {
+    for(id key in  [[NSUserDefaults standardUserDefaults] dictionaryRepresentation]){
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:key];
+    }
+    for(BSNumberTextField* textField in [BSParseViewForObject findObjectsInView:self requestedObjectType:[BSNumberTextField class]]){
+        textField.text = nil;
+    }
+    
+    
 }
 @end

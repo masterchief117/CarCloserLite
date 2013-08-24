@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BSScrollView.h"
 
 @interface BSView : UIView
 - (IBAction)tapOut:(UITapGestureRecognizer *)sender;
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet BSScrollView *scrollView;
+- (IBAction)clearInputs:(UIButton *)sender;
 
 @end

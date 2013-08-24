@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B00129C717C6AF8F0077ACAB /* BSView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00129C617C6AF8F0077ACAB /* BSView.m */; };
+		B012E7BB17C7E56700C8250A /* BSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B012E7BA17C7E56700C8250A /* BSScrollView.m */; };
+		B012E7BD17C7FA8F00C8250A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B012E7BC17C7FA8F00C8250A /* AudioToolbox.framework */; };
+		B012E7C117C7FE6B00C8250A /* BSParseViewForObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = B012E7C017C7FE6B00C8250A /* BSParseViewForObjects.m */; };
 		B081BCEC17C68FD900BCCDC3 /* CarInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081BCEB17C68FD900BCCDC3 /* CarInput.xib */; };
 		B0B8420517C6A139007B0EED /* CarReport.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B8420417C6A139007B0EED /* CarReport.xib */; };
 		B0B8420E17C6A9B1007B0EED /* BSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */; };
-		B0B8421117C6AC98007B0EED /* BSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8421017C6AC98007B0EED /* BSTextField.m */; };
+		B0B8421117C6AC98007B0EED /* BSNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8421017C6AC98007B0EED /* BSNumberTextField.m */; };
 		B0D0FD9C17C66DE200D0B697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FD9B17C66DE200D0B697 /* Foundation.framework */; };
 		B0D0FD9E17C66DE200D0B697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FD9D17C66DE200D0B697 /* CoreGraphics.framework */; };
 		B0D0FDA017C66DE200D0B697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D0FD9F17C66DE200D0B697 /* UIKit.framework */; };
@@ -43,12 +46,17 @@
 /* Begin PBXFileReference section */
 		B00129C517C6AF8F0077ACAB /* BSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSView.h; sourceTree = "<group>"; };
 		B00129C617C6AF8F0077ACAB /* BSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSView.m; sourceTree = "<group>"; };
+		B012E7B917C7E56700C8250A /* BSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSScrollView.h; sourceTree = "<group>"; };
+		B012E7BA17C7E56700C8250A /* BSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSScrollView.m; sourceTree = "<group>"; };
+		B012E7BC17C7FA8F00C8250A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B012E7BF17C7FE6B00C8250A /* BSParseViewForObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSParseViewForObjects.h; sourceTree = "<group>"; };
+		B012E7C017C7FE6B00C8250A /* BSParseViewForObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSParseViewForObjects.m; sourceTree = "<group>"; };
 		B081BCEB17C68FD900BCCDC3 /* CarInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarInput.xib; sourceTree = "<group>"; };
 		B0B8420417C6A139007B0EED /* CarReport.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarReport.xib; sourceTree = "<group>"; };
 		B0B8420C17C6A9B1007B0EED /* BSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBaseViewController.h; sourceTree = "<group>"; };
 		B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBaseViewController.m; sourceTree = "<group>"; };
-		B0B8420F17C6AC98007B0EED /* BSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextField.h; sourceTree = "<group>"; };
-		B0B8421017C6AC98007B0EED /* BSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextField.m; sourceTree = "<group>"; };
+		B0B8420F17C6AC98007B0EED /* BSNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNumberTextField.h; sourceTree = "<group>"; };
+		B0B8421017C6AC98007B0EED /* BSNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNumberTextField.m; sourceTree = "<group>"; };
 		B0D0FD9817C66DE200D0B697 /* CarCloserLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCloserLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0FD9B17C66DE200D0B697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0D0FD9D17C66DE200D0B697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B012E7BD17C7FA8F00C8250A /* AudioToolbox.framework in Frameworks */,
 				B0D0FD9E17C66DE200D0B697 /* CoreGraphics.framework in Frameworks */,
 				B0D0FDA017C66DE200D0B697 /* UIKit.framework in Frameworks */,
 				B0D0FD9C17C66DE200D0B697 /* Foundation.framework in Frameworks */,
@@ -97,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B012E7BE17C7FE5500C8250A /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B012E7BF17C7FE6B00C8250A /* BSParseViewForObjects.h */,
+				B012E7C017C7FE6B00C8250A /* BSParseViewForObjects.m */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
 		B081BCEA17C68FBE00BCCDC3 /* xib */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,10 +127,12 @@
 		B0B8420617C6A88C007B0EED /* uiobjects */ = {
 			isa = PBXGroup;
 			children = (
-				B0B8420F17C6AC98007B0EED /* BSTextField.h */,
-				B0B8421017C6AC98007B0EED /* BSTextField.m */,
+				B0B8420F17C6AC98007B0EED /* BSNumberTextField.h */,
+				B0B8421017C6AC98007B0EED /* BSNumberTextField.m */,
 				B00129C517C6AF8F0077ACAB /* BSView.h */,
 				B00129C617C6AF8F0077ACAB /* BSView.m */,
+				B012E7B917C7E56700C8250A /* BSScrollView.h */,
+				B012E7BA17C7E56700C8250A /* BSScrollView.m */,
 			);
 			name = uiobjects;
 			sourceTree = "<group>";
@@ -148,6 +168,7 @@
 		B0D0FD9A17C66DE200D0B697 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B012E7BC17C7FA8F00C8250A /* AudioToolbox.framework */,
 				B0D0FD9B17C66DE200D0B697 /* Foundation.framework */,
 				B0D0FD9D17C66DE200D0B697 /* CoreGraphics.framework */,
 				B0D0FD9F17C66DE200D0B697 /* UIKit.framework */,
@@ -159,6 +180,7 @@
 		B0D0FDA117C66DE200D0B697 /* CarCloserLite */ = {
 			isa = PBXGroup;
 			children = (
+				B012E7BE17C7FE5500C8250A /* utilities */,
 				B0B8420A17C6A98F007B0EED /* controllers */,
 				B0B8420617C6A88C007B0EED /* uiobjects */,
 				B081BCEA17C68FBE00BCCDC3 /* xib */,
@@ -306,10 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B012E7BB17C7E56700C8250A /* BSScrollView.m in Sources */,
 				B0D0FDB517C66DE200D0B697 /* BSCarController.m in Sources */,
 				B0B8420E17C6A9B1007B0EED /* BSBaseViewController.m in Sources */,
 				B00129C717C6AF8F0077ACAB /* BSView.m in Sources */,
-				B0B8421117C6AC98007B0EED /* BSTextField.m in Sources */,
+				B0B8421117C6AC98007B0EED /* BSNumberTextField.m in Sources */,
+				B012E7C117C7FE6B00C8250A /* BSParseViewForObjects.m in Sources */,
 				B0D0FDA817C66DE200D0B697 /* main.m in Sources */,
 				B0D0FDAC17C66DE200D0B697 /* BSAppDelegate.m in Sources */,
 				B0D0FDB817C66DE200D0B697 /* BSSecondViewController.m in Sources */,
