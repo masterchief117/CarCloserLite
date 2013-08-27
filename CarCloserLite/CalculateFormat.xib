@@ -15,126 +15,152 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invoice :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bn-EA-Bte">
-                            <rect key="frame" x="66" y="46" width="66" height="21"/>
+                            <rect key="frame" x="67" y="81" width="65" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e0Q-k6-GgG" customClass="BSNumberTextField">
-                            <rect key="frame" x="161" y="42" width="140" height="30"/>
+                            <rect key="frame" x="161" y="84" width="140" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Principal :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGj-Go-BY8">
-                            <rect key="frame" x="56" y="88" width="76" height="21"/>
+                            <rect key="frame" x="56" y="130" width="76" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Length of Loan :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9U7-k0-QJK">
-                            <rect key="frame" x="6" y="130" width="126" height="21"/>
+                            <rect key="frame" x="6" y="172" width="126" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j4B-ti-t5D" customClass="BSNumberTextField">
-                            <rect key="frame" x="161" y="84" width="140" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                        <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhE-yV-hlP" customClass="BSNumberTextField">
                             <rect key="frame" x="161" y="126" width="140" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Years? :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJz-Nm-o4W">
-                            <rect key="frame" x="52" y="172" width="80" height="21"/>
+                        <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhE-yV-hlP" customClass="BSNumberTextField">
+                            <rect key="frame" x="161" y="168" width="140" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="121" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Years? :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJz-Nm-o4W">
+                            <rect key="frame" x="52" y="214" width="80" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6rf-sG-M9d">
-                            <rect key="frame" x="161" y="167" width="51" height="31"/>
+                        <switch opaque="NO" tag="122" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6rf-sG-M9d">
+                            <rect key="frame" x="161" y="209" width="51" height="31"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </switch>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interest Rate :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGa-yK-w2h">
-                            <rect key="frame" x="24" y="214" width="108" height="21"/>
+                            <rect key="frame" x="24" y="256" width="108" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cQ2-zL-cvK" customClass="BSNumberTextField">
-                            <rect key="frame" x="161" y="210" width="140" height="30"/>
+                            <rect key="frame" x="161" y="252" width="140" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment $ :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcM-Ci-quz">
-                            <rect key="frame" x="40" y="256" width="92" height="21"/>
+                            <rect key="frame" x="40" y="298" width="92" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GcR-1L-YrQ" customClass="BSNumberTextField">
-                            <rect key="frame" x="161" y="252" width="140" height="30"/>
+                            <rect key="frame" x="161" y="294" width="140" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Car Price Figures" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acb-Ov-JYY">
-                            <rect key="frame" x="95" y="13" width="133" height="21"/>
+                            <rect key="frame" x="94" y="13" width="133" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requested :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0B-QX-1YW">
+                            <rect key="frame" x="39" y="47" width="93" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGk-Mm-a4H">
+                            <rect key="frame" x="161" y="42" width="140" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="140" id="9EJ-Im-lH9"/>
+                                <constraint firstAttribute="height" constant="30" id="yEj-KZ-lr8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Total Cost Of Loan">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="0bn-EA-Bte" firstAttribute="leading" secondItem="jtd-2t-o0i" secondAttribute="leading" constant="66" id="1Bz-fm-Tnv"/>
-                        <constraint firstItem="WGj-Go-BY8" firstAttribute="top" secondItem="0bn-EA-Bte" secondAttribute="bottom" constant="21" id="1YX-zB-NXY"/>
+                        <constraint firstItem="WGj-Go-BY8" firstAttribute="top" secondItem="0bn-EA-Bte" secondAttribute="bottom" constant="16" id="1YX-zB-NXY"/>
                         <constraint firstItem="jcM-Ci-quz" firstAttribute="top" secondItem="DGa-yK-w2h" secondAttribute="bottom" constant="21" id="4jE-aY-LcJ"/>
                         <constraint firstItem="j4B-ti-t5D" firstAttribute="top" secondItem="e0Q-k6-GgG" secondAttribute="bottom" constant="12" id="4ui-IR-n8w"/>
                         <constraint firstItem="GcR-1L-YrQ" firstAttribute="centerY" secondItem="jcM-Ci-quz" secondAttribute="centerY" constant="0.5" id="5Sb-nQ-7k0"/>
-                        <constraint firstAttribute="trailing" secondItem="0bn-EA-Bte" secondAttribute="trailing" constant="189" id="66u-rC-Aho"/>
+                        <constraint firstItem="e0Q-k6-GgG" firstAttribute="centerY" secondItem="0bn-EA-Bte" secondAttribute="centerY" constant="1.5" id="7CX-0I-QDk"/>
                         <constraint firstItem="cQ2-zL-cvK" firstAttribute="top" secondItem="6rf-sG-M9d" secondAttribute="bottom" constant="12" id="7tL-5f-gAP"/>
                         <constraint firstAttribute="trailing" secondItem="e0Q-k6-GgG" secondAttribute="trailing" constant="20" id="8OH-e7-dld"/>
                         <constraint firstItem="9U7-k0-QJK" firstAttribute="top" secondItem="WGj-Go-BY8" secondAttribute="bottom" constant="21" id="8PA-Nz-Kz5"/>
                         <constraint firstAttribute="trailing" secondItem="j4B-ti-t5D" secondAttribute="trailing" constant="20" id="AWS-j1-9nZ"/>
+                        <constraint firstItem="nGk-Mm-a4H" firstAttribute="centerY" secondItem="m0B-QX-1YW" secondAttribute="centerY" id="BRT-eK-F6A"/>
                         <constraint firstItem="WGj-Go-BY8" firstAttribute="trailing" secondItem="9U7-k0-QJK" secondAttribute="trailing" id="F7i-Hk-cCk"/>
+                        <constraint firstItem="e0Q-k6-GgG" firstAttribute="centerY" secondItem="0bn-EA-Bte" secondAttribute="centerY" constant="1.5" id="I8S-vT-bBc"/>
                         <constraint firstItem="DGa-yK-w2h" firstAttribute="trailing" secondItem="jcM-Ci-quz" secondAttribute="trailing" id="IUp-pG-ApG"/>
                         <constraint firstItem="WGj-Go-BY8" firstAttribute="trailing" secondItem="0bn-EA-Bte" secondAttribute="trailing" id="IeM-AO-bKG"/>
                         <constraint firstItem="6rf-sG-M9d" firstAttribute="centerY" secondItem="sJz-Nm-o4W" secondAttribute="centerY" id="Ijo-Bc-Br1"/>
                         <constraint firstAttribute="height" relation="lessThanOrEqual" priority="1" constant="466" id="J0c-fD-4fu" userLabel="Height - (466) - Scroll View"/>
                         <constraint firstItem="cQ2-zL-cvK" firstAttribute="centerY" secondItem="DGa-yK-w2h" secondAttribute="centerY" constant="0.5" id="LZT-ze-5Bd"/>
-                        <constraint firstAttribute="bottom" secondItem="e0Q-k6-GgG" secondAttribute="bottom" constant="394" id="Nus-UC-EpE"/>
                         <constraint firstItem="cQ2-zL-cvK" firstAttribute="trailing" secondItem="GcR-1L-YrQ" secondAttribute="trailing" id="PHF-L2-rjz"/>
+                        <constraint firstItem="0bn-EA-Bte" firstAttribute="top" secondItem="m0B-QX-1YW" secondAttribute="bottom" constant="13" id="RGA-Pt-voq"/>
                         <constraint firstItem="sJz-Nm-o4W" firstAttribute="trailing" secondItem="9U7-k0-QJK" secondAttribute="trailing" id="Re6-Ya-uzj"/>
+                        <constraint firstItem="nGk-Mm-a4H" firstAttribute="leading" secondItem="e0Q-k6-GgG" secondAttribute="leading" id="Twt-ma-xuJ"/>
                         <constraint firstItem="GcR-1L-YrQ" firstAttribute="top" secondItem="cQ2-zL-cvK" secondAttribute="bottom" constant="12" id="UQR-os-s4D"/>
                         <constraint firstAttribute="centerX" secondItem="acb-Ov-JYY" secondAttribute="centerX" constant="-0.5" id="WRo-ji-feb"/>
-                        <constraint firstItem="e0Q-k6-GgG" firstAttribute="top" secondItem="jtd-2t-o0i" secondAttribute="top" constant="42" id="ZVt-3g-Lfm"/>
+                        <constraint firstItem="nGk-Mm-a4H" firstAttribute="trailing" secondItem="e0Q-k6-GgG" secondAttribute="trailing" id="aJf-FT-07u"/>
                         <constraint firstItem="VhE-yV-hlP" firstAttribute="top" secondItem="j4B-ti-t5D" secondAttribute="bottom" constant="12" id="asd-hS-Av9"/>
                         <constraint firstItem="DGa-yK-w2h" firstAttribute="trailing" secondItem="sJz-Nm-o4W" secondAttribute="trailing" id="axD-Ur-Kv3"/>
+                        <constraint firstItem="nGk-Mm-a4H" firstAttribute="leading" secondItem="m0B-QX-1YW" secondAttribute="trailing" constant="29" id="bkY-2g-Edh"/>
                         <constraint firstItem="9U7-k0-QJK" firstAttribute="centerY" secondItem="VhE-yV-hlP" secondAttribute="centerY" constant="-0.5" id="dXu-Qw-Wpe"/>
                         <constraint firstItem="acb-Ov-JYY" firstAttribute="top" secondItem="jtd-2t-o0i" secondAttribute="top" constant="13" id="dqa-ji-1fx"/>
                         <constraint firstAttribute="centerX" secondItem="e0Q-k6-GgG" secondAttribute="centerX" constant="-70" id="eLF-Fq-QRA"/>
+                        <constraint firstItem="0bn-EA-Bte" firstAttribute="trailing" secondItem="m0B-QX-1YW" secondAttribute="trailing" id="eVM-6s-45D"/>
                         <constraint firstItem="e0Q-k6-GgG" firstAttribute="leading" secondItem="j4B-ti-t5D" secondAttribute="leading" id="fIj-i7-vh1"/>
-                        <constraint firstItem="0bn-EA-Bte" firstAttribute="top" secondItem="jtd-2t-o0i" secondAttribute="top" constant="46" id="fIy-Zp-IR1"/>
+                        <constraint firstItem="m0B-QX-1YW" firstAttribute="top" secondItem="acb-Ov-JYY" secondAttribute="bottom" constant="13" id="fmc-oD-OXp"/>
                         <constraint firstAttribute="trailing" secondItem="VhE-yV-hlP" secondAttribute="trailing" constant="20" id="fyj-vh-vv9"/>
                         <constraint firstItem="DGa-yK-w2h" firstAttribute="top" secondItem="sJz-Nm-o4W" secondAttribute="bottom" constant="21" id="hOS-DP-fxd"/>
                         <constraint firstItem="j4B-ti-t5D" firstAttribute="centerY" secondItem="WGj-Go-BY8" secondAttribute="centerY" constant="0.5" id="iWQ-Ob-s6d"/>
+                        <constraint firstItem="e0Q-k6-GgG" firstAttribute="top" secondItem="nGk-Mm-a4H" secondAttribute="bottom" constant="12" id="jTd-pw-EJx"/>
                         <constraint firstAttribute="trailing" secondItem="cQ2-zL-cvK" secondAttribute="trailing" constant="20" id="jea-hc-oQJ"/>
-                        <constraint firstItem="e0Q-k6-GgG" firstAttribute="leading" secondItem="0bn-EA-Bte" secondAttribute="trailing" constant="29" id="lSt-fr-YPk"/>
+                        <constraint firstAttribute="bottom" secondItem="nGk-Mm-a4H" secondAttribute="bottom" constant="394" id="kKM-6J-9ho"/>
                         <constraint firstItem="sJz-Nm-o4W" firstAttribute="top" secondItem="9U7-k0-QJK" secondAttribute="bottom" constant="21" id="rhM-p0-vBX"/>
                         <constraint firstItem="cQ2-zL-cvK" firstAttribute="leading" secondItem="6rf-sG-M9d" secondAttribute="leading" id="sc4-aT-Zrj"/>
                         <constraint firstItem="j4B-ti-t5D" firstAttribute="leading" secondItem="VhE-yV-hlP" secondAttribute="leading" id="tch-6a-AqU"/>
+                        <constraint firstItem="nGk-Mm-a4H" firstAttribute="top" secondItem="acb-Ov-JYY" secondAttribute="bottom" constant="8" symbolic="YES" id="uLW-po-3Ba"/>
                         <constraint firstItem="6rf-sG-M9d" firstAttribute="top" secondItem="VhE-yV-hlP" secondAttribute="bottom" constant="11" id="xE3-lN-VlE"/>
                         <constraint firstItem="6rf-sG-M9d" firstAttribute="leading" secondItem="VhE-yV-hlP" secondAttribute="leading" id="xWp-2n-RTv"/>
                         <constraint firstItem="cQ2-zL-cvK" firstAttribute="leading" secondItem="GcR-1L-YrQ" secondAttribute="leading" id="z1g-Ev-YNI"/>

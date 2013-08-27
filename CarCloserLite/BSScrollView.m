@@ -23,7 +23,6 @@
     if(self)
     {
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        self.backgroundColor = [UIColor redColor];
     }
     return self;
 }

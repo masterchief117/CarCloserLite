@@ -51,8 +51,8 @@ enum TextFieldValue{
 }
 -(void)didMoveToSuperview{
     self.text = [[NSUserDefaults standardUserDefaults] objectForKey:[NSString stringWithFormat:@"%d",self.tag]];
-    [self setKeyboardAppearance:UIKeyboardAppearanceLight];
- //   [self setKeyboardType:UIKeyboardTypeDecimalPad];
+    [self setKeyboardAppearance:UIKeyboardAppearanceDefault];
+    [self setKeyboardType:UIKeyboardTypeDecimalPad];
 }
 
 -(BOOL)textFieldShouldEndEditing:(UITextField *)textField{

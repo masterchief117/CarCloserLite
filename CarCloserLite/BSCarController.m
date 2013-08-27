@@ -20,7 +20,7 @@ BSView* carView;
 {
     [super viewDidLoad];
     [self removeAllSubviews];
-    carView=[[[NSBundle mainBundle] loadNibNamed:@"CarInput" owner:nil options:nil] objectAtIndex:0];
+    carView=[[[NSBundle mainBundle] loadNibNamed:@"CalculateFormat" owner:nil options:nil] objectAtIndex:0];
     carView.frame = self.view.frame;
     [self.view addSubview:carView];
 }
