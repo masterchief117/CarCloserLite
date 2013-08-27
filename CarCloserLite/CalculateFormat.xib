@@ -103,7 +103,7 @@
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGk-Mm-a4H">
+                        <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGk-Mm-a4H">
                             <rect key="frame" x="161" y="42" width="140" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -115,6 +115,9 @@
                             <state key="normal" title="Total Cost Of Loan">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="requestedClicked:" destination="1" eventType="touchUpInside" id="5O2-hW-kbh"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
@@ -208,6 +211,12 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <connections>
+                <outlet property="interestRateText" destination="cQ2-zL-cvK" id="r7b-w3-0rZ"/>
+                <outlet property="invoiceText" destination="e0Q-k6-GgG" id="tr2-cY-ZDr"/>
+                <outlet property="lengthOfLoanText" destination="VhE-yV-hlP" id="7Ls-Is-mDb"/>
+                <outlet property="paymentText" destination="GcR-1L-YrQ" id="FiY-Ob-c9k"/>
+                <outlet property="principalText" destination="j4B-ti-t5D" id="1CJ-qi-Ri4"/>
+                <outlet property="requestedButton" destination="nGk-Mm-a4H" id="iZg-Zd-DOw"/>
                 <outlet property="scrollView" destination="jtd-2t-o0i" id="2dx-mM-TUg"/>
                 <outletCollection property="gestureRecognizers" destination="S0g-Nb-Df2" appends="YES" id="OEe-6p-IAG"/>
                 <outletCollection property="gestureRecognizers" destination="S0g-Nb-Df2" appends="YES" id="3zg-k8-Sva"/>

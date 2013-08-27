@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BSPickerForCalculationType : UIPickerView
+@interface BSPickerForCalculationType : UIPickerView <UIPickerViewDelegate>
 
 @end

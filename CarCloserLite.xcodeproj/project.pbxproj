@@ -11,7 +11,16 @@
 		B012E7BB17C7E56700C8250A /* BSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B012E7BA17C7E56700C8250A /* BSScrollView.m */; };
 		B012E7BD17C7FA8F00C8250A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B012E7BC17C7FA8F00C8250A /* AudioToolbox.framework */; };
 		B012E7C117C7FE6B00C8250A /* BSParseViewForObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = B012E7C017C7FE6B00C8250A /* BSParseViewForObjects.m */; };
-		B081BCEC17C68FD900BCCDC3 /* CarInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081BCEB17C68FD900BCCDC3 /* CarInput.xib */; };
+		B023180017CD066300F0A3D1 /* RequestedLoanInformationPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02317FF17CD066300F0A3D1 /* RequestedLoanInformationPicker.xib */; };
+		B023180517CD407800F0A3D1 /* BSPickerForCalculationType.m in Sources */ = {isa = PBXBuildFile; fileRef = B023180417CD407800F0A3D1 /* BSPickerForCalculationType.m */; };
+		B081BCEC17C68FD900BCCDC3 /* CalculateFormat.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081BCEB17C68FD900BCCDC3 /* CalculateFormat.xib */; };
+		B093FEF117CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B093FEEC17CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.m */; };
+		B093FEF217CBD215005EF0AA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B093FEEE17CBD215005EF0AA /* TPKeyboardAvoidingScrollView.m */; };
+		B093FEF317CBD215005EF0AA /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B093FEF017CBD215005EF0AA /* TPKeyboardAvoidingTableView.m */; };
+		B093FEF617CBDCFD005EF0AA /* BSInterestRateCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B093FEF517CBDCFD005EF0AA /* BSInterestRateCalculator.m */; };
+		B093FEF917CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B093FEF817CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.m */; };
+		B095BED117CC07540012FA17 /* BSMonthlyPaymentCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B095BED017CC07540012FA17 /* BSMonthlyPaymentCalculator.m */; };
+		B095BED417CC14090012FA17 /* BSPaymentPeriodsCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B095BED317CC14090012FA17 /* BSPaymentPeriodsCalculator.m */; };
 		B0B8420517C6A139007B0EED /* CarReport.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B8420417C6A139007B0EED /* CarReport.xib */; };
 		B0B8420E17C6A9B1007B0EED /* BSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */; };
 		B0B8421117C6AC98007B0EED /* BSNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B8421017C6AC98007B0EED /* BSNumberTextField.m */; };
@@ -51,7 +60,24 @@
 		B012E7BC17C7FA8F00C8250A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B012E7BF17C7FE6B00C8250A /* BSParseViewForObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSParseViewForObjects.h; sourceTree = "<group>"; };
 		B012E7C017C7FE6B00C8250A /* BSParseViewForObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSParseViewForObjects.m; sourceTree = "<group>"; };
-		B081BCEB17C68FD900BCCDC3 /* CarInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarInput.xib; sourceTree = "<group>"; };
+		B02317FF17CD066300F0A3D1 /* RequestedLoanInformationPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestedLoanInformationPicker.xib; sourceTree = "<group>"; };
+		B023180317CD407800F0A3D1 /* BSPickerForCalculationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPickerForCalculationType.h; sourceTree = "<group>"; };
+		B023180417CD407800F0A3D1 /* BSPickerForCalculationType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPickerForCalculationType.m; sourceTree = "<group>"; };
+		B081BCEB17C68FD900BCCDC3 /* CalculateFormat.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculateFormat.xib; sourceTree = "<group>"; };
+		B093FEEB17CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		B093FEEC17CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		B093FEED17CBD215005EF0AA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		B093FEEE17CBD215005EF0AA /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		B093FEEF17CBD215005EF0AA /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		B093FEF017CBD215005EF0AA /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		B093FEF417CBDCFD005EF0AA /* BSInterestRateCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSInterestRateCalculator.h; sourceTree = "<group>"; };
+		B093FEF517CBDCFD005EF0AA /* BSInterestRateCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSInterestRateCalculator.m; sourceTree = "<group>"; };
+		B093FEF717CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRemainingPrincipalCalculator.h; sourceTree = "<group>"; };
+		B093FEF817CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRemainingPrincipalCalculator.m; sourceTree = "<group>"; };
+		B095BECF17CC07540012FA17 /* BSMonthlyPaymentCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMonthlyPaymentCalculator.h; sourceTree = "<group>"; };
+		B095BED017CC07540012FA17 /* BSMonthlyPaymentCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMonthlyPaymentCalculator.m; sourceTree = "<group>"; };
+		B095BED217CC14090012FA17 /* BSPaymentPeriodsCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPaymentPeriodsCalculator.h; sourceTree = "<group>"; };
+		B095BED317CC14090012FA17 /* BSPaymentPeriodsCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPaymentPeriodsCalculator.m; sourceTree = "<group>"; };
 		B0B8420417C6A139007B0EED /* CarReport.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarReport.xib; sourceTree = "<group>"; };
 		B0B8420C17C6A9B1007B0EED /* BSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBaseViewController.h; sourceTree = "<group>"; };
 		B0B8420D17C6A9B1007B0EED /* BSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBaseViewController.m; sourceTree = "<group>"; };
@@ -111,6 +137,14 @@
 			children = (
 				B012E7BF17C7FE6B00C8250A /* BSParseViewForObjects.h */,
 				B012E7C017C7FE6B00C8250A /* BSParseViewForObjects.m */,
+				B093FEF417CBDCFD005EF0AA /* BSInterestRateCalculator.h */,
+				B093FEF517CBDCFD005EF0AA /* BSInterestRateCalculator.m */,
+				B093FEF717CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.h */,
+				B093FEF817CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.m */,
+				B095BECF17CC07540012FA17 /* BSMonthlyPaymentCalculator.h */,
+				B095BED017CC07540012FA17 /* BSMonthlyPaymentCalculator.m */,
+				B095BED217CC14090012FA17 /* BSPaymentPeriodsCalculator.h */,
+				B095BED317CC14090012FA17 /* BSPaymentPeriodsCalculator.m */,
 			);
 			name = utilities;
 			sourceTree = "<group>";
@@ -118,10 +152,24 @@
 		B081BCEA17C68FBE00BCCDC3 /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				B081BCEB17C68FD900BCCDC3 /* CarInput.xib */,
+				B081BCEB17C68FD900BCCDC3 /* CalculateFormat.xib */,
 				B0B8420417C6A139007B0EED /* CarReport.xib */,
+				B02317FF17CD066300F0A3D1 /* RequestedLoanInformationPicker.xib */,
 			);
 			name = xib;
+			sourceTree = "<group>";
+		};
+		B093FEEA17CBD1D3005EF0AA /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B093FEEB17CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.h */,
+				B093FEEC17CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.m */,
+				B093FEED17CBD215005EF0AA /* TPKeyboardAvoidingScrollView.h */,
+				B093FEEE17CBD215005EF0AA /* TPKeyboardAvoidingScrollView.m */,
+				B093FEEF17CBD215005EF0AA /* TPKeyboardAvoidingTableView.h */,
+				B093FEF017CBD215005EF0AA /* TPKeyboardAvoidingTableView.m */,
+			);
+			name = libraries;
 			sourceTree = "<group>";
 		};
 		B0B8420617C6A88C007B0EED /* uiobjects */ = {
@@ -133,6 +181,8 @@
 				B00129C617C6AF8F0077ACAB /* BSView.m */,
 				B012E7B917C7E56700C8250A /* BSScrollView.h */,
 				B012E7BA17C7E56700C8250A /* BSScrollView.m */,
+				B023180317CD407800F0A3D1 /* BSPickerForCalculationType.h */,
+				B023180417CD407800F0A3D1 /* BSPickerForCalculationType.m */,
 			);
 			name = uiobjects;
 			sourceTree = "<group>";
@@ -180,6 +230,7 @@
 		B0D0FDA117C66DE200D0B697 /* CarCloserLite */ = {
 			isa = PBXGroup;
 			children = (
+				B093FEEA17CBD1D3005EF0AA /* libraries */,
 				B012E7BE17C7FE5500C8250A /* utilities */,
 				B0B8420A17C6A98F007B0EED /* controllers */,
 				B0B8420617C6A88C007B0EED /* uiobjects */,
@@ -305,8 +356,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D0FDB217C66DE200D0B697 /* Main_iPad.storyboard in Resources */,
-				B081BCEC17C68FD900BCCDC3 /* CarInput.xib in Resources */,
+				B081BCEC17C68FD900BCCDC3 /* CalculateFormat.xib in Resources */,
 				B0B8420517C6A139007B0EED /* CarReport.xib in Resources */,
+				B023180017CD066300F0A3D1 /* RequestedLoanInformationPicker.xib in Resources */,
 				B0D0FDBA17C66DE200D0B697 /* Images.xcassets in Resources */,
 				B0D0FDAF17C66DE200D0B697 /* Main_iPhone.storyboard in Resources */,
 				B0D0FDA617C66DE200D0B697 /* InfoPlist.strings in Resources */,
@@ -328,14 +380,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B093FEF117CBD215005EF0AA /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				B012E7BB17C7E56700C8250A /* BSScrollView.m in Sources */,
+				B093FEF617CBDCFD005EF0AA /* BSInterestRateCalculator.m in Sources */,
 				B0D0FDB517C66DE200D0B697 /* BSCarController.m in Sources */,
 				B0B8420E17C6A9B1007B0EED /* BSBaseViewController.m in Sources */,
 				B00129C717C6AF8F0077ACAB /* BSView.m in Sources */,
+				B095BED417CC14090012FA17 /* BSPaymentPeriodsCalculator.m in Sources */,
+				B093FEF217CBD215005EF0AA /* TPKeyboardAvoidingScrollView.m in Sources */,
+				B093FEF917CBE2A8005EF0AA /* BSRemainingPrincipalCalculator.m in Sources */,
 				B0B8421117C6AC98007B0EED /* BSNumberTextField.m in Sources */,
+				B023180517CD407800F0A3D1 /* BSPickerForCalculationType.m in Sources */,
 				B012E7C117C7FE6B00C8250A /* BSParseViewForObjects.m in Sources */,
 				B0D0FDA817C66DE200D0B697 /* main.m in Sources */,
+				B093FEF317CBD215005EF0AA /* TPKeyboardAvoidingTableView.m in Sources */,
 				B0D0FDAC17C66DE200D0B697 /* BSAppDelegate.m in Sources */,
+				B095BED117CC07540012FA17 /* BSMonthlyPaymentCalculator.m in Sources */,
 				B0D0FDB817C66DE200D0B697 /* BSSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
